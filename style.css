@@ -1,0 +1,81 @@
+@media screen and (max-width: 1280px)
+{
+    .rectangle1
+    {
+        background-color: black;
+    }
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .rectangle1 {
+    float: left;
+    width: 70%;
+    padding: 25px;
+    background-color: #2ecc71;
+  }
+  .rectangle2 {
+      float: right;
+      width: 30%;
+      padding: 25px;
+      background-color: #2980b9;
+  }
+  
+  .ligne1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .ligne2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .rectangle3 {
+    float: left;
+    width: 33.33%;
+    padding: 100px;
+    background-color: #e74c3c;
+  }
+  .rectangle4 {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: #e67e22;
+  }
+  .rectangle5 {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: #95a5a6;
+  }
+  .rectangle6 {
+    float: left;
+    width: 22.22%;
+    padding: 50px;
+    background-color: #f39c12;
+  }
+  .rectangle7 {
+    float: left;
+    width: 22.22%;
+    padding: 50px;
+    background-color: #16a085;
+  }
+  .rectangle8 {
+    float: right;
+    width: 22.2315%;
+    padding: 50px;
+    background-color: #d35400;
+  }
+  .ligne3::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .rectangle9 {
+    float: left;
+    width: 99.99%;
+    padding: 120px;
+    background-color: #2c3e50;
+  }
